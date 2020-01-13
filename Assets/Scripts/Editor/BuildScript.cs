@@ -10,8 +10,8 @@ public class BuildScript
         BuildPipeline.BuildPlayer(new BuildPlayerOptions
         {
             scenes = EnabledScenes,
-            locationPathName = "./builds/game.x86_64.exe",
-            target = BuildTarget.StandaloneWindows,
+            locationPathName = "./builds/android/game.apk",
+            target = BuildTarget.Android,
             options = BuildOptions.None
         });
     }
